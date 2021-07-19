@@ -1,6 +1,6 @@
 {
   "name": "swiper-vue2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Swiper component for Vue 2",
   "keywords": [
     "vue2 swiper",
@@ -19,11 +19,12 @@
     "url": "https://github.com/Orest-2"
   },
   "main": "./dist/swiper-vue2.common.js",
-  "jsnext:main": "./dist/swiper-vue2.umd.js",
-  "module": "./dist/swiper-vue2.umd.js",
+  "jsnext:main": "./dist/swiper-vue2.umd.min.js",
+  "module": "./dist/swiper-vue2.umd.min.js",
   "types": "./types/swiper-vue2.d.ts",
   "files": [
-    "dist",
+    "dist/swiper-vue2.common.js",
+    "dist/swiper-vue2.umd.min.js",
     "types"
   ],
   "scripts": {
