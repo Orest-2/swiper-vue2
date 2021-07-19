@@ -1,6 +1,6 @@
 # swiper-vue2
 
-[Doc](https://swiperjs.com/vue){:target="_blank"}
+<a href="https://swiperjs.com/vue" target="_blank">Doc</a>
 
 ## Installation
 ```
