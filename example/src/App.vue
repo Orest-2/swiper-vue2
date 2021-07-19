@@ -51,7 +51,7 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from '../../src'
+import { Swiper, SwiperSlide } from 'swiper-vue2'
 
 // Import Swiper styles
 import 'swiper/swiper.scss'
