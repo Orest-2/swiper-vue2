@@ -23,7 +23,6 @@
   "module": "./dist/swiper-vue2.umd.js",
   "types": "./types/swiper-vue2.d.ts",
   "files": [
-    "src",
     "dist",
     "types"
   ],
