@@ -1,6 +1,8 @@
 # swiper-vue2
 
-<a href="https://swiperjs.com/vue" target="_blank">Doc</a>
+<h2>
+  <a href="https://swiperjs.com/vue" target="_blank">Doc</a>
+</h2>
 
 ## Installation
 ```
