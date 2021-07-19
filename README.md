@@ -5,6 +5,7 @@
 
 <h2>
   <a href="https://www.npmjs.com/package/swiper-vue2" target="_blank">NPM</a>
+  <br>
   <a href="https://swiperjs.com/vue" target="_blank">Doc</a>
 </h2>
 
