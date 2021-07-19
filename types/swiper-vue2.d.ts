@@ -20,12 +20,13 @@ import {
   ZoomOptions,
 } from './swiper/public-api';
 
-import Vue, { ComponentOptions, PropType } from 'vue';
+import Vue, { PropType } from 'vue';
 
 import { SwiperOptions } from './swiper/swiper-options';
 import SwiperClass from './swiper/swiper-class';
+import { ExtendedVue } from 'vue/types/vue';
 
-declare const Swiper: ComponentOptions<Vue, {}, {}, {}, {},
+declare const Swiper: ExtendedVue<Vue, unknown, unknown, unknown,
   {
     tag: {
       type: StringConstructor;
@@ -502,7 +503,7 @@ declare const Swiper: ComponentOptions<Vue, {}, {}, {}, {},
   }
 >;
 
-declare const SwiperSlide: ComponentOptions<Vue, {}, {}, {}, {}, {
+declare const SwiperSlide: ExtendedVue<Vue, unknown, unknown, unknown, {
   tag: {
     type: StringConstructor;
     default: string;
