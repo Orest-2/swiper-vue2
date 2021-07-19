@@ -1,6 +1,10 @@
 # swiper-vue2
 
+![npm](https://img.shields.io/npm/dw/swiper-vue2)
+![npm](https://img.shields.io/npm/v/swiper-vue2)
+
 <h2>
+  <a href="https://www.npmjs.com/package/swiper-vue2" target="_blank">NPM</a>
   <a href="https://swiperjs.com/vue" target="_blank">Doc</a>
 </h2>
 
