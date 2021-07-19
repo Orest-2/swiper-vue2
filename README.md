@@ -1,6 +1,6 @@
 # swiper-vue2
 
-[Doc](https://swiperjs.com/vue).
+##[Doc](https://swiperjs.com/vue){:target="_blank"}
 
 ## Installation
 ```
@@ -8,7 +8,7 @@ npm i swiper-vue2
 ```
 
 ### Usage
-`swiper/vue` exports 2 components: `Swiper` and `SwiperSlide`:
+`swiper-vue2` exports 2 components: `Swiper` and `SwiperSlide`:
 
 ```vue
 <template>
