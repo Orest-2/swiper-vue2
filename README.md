@@ -1,6 +1,6 @@
 # swiper-vue2
 
-![npm](https://img.shields.io/npm/dw/swiper-vue2)
+![npm](https://img.shields.io/npm/dt/swiper-vue2)
 ![npm](https://img.shields.io/npm/v/swiper-vue2)
 
 <h2>
