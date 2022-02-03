@@ -17,7 +17,7 @@ npm i swiper-vue2
 ```
 
 ### Usage
-`swiper-vue2` exports 2 components: `Swiper` and `SwiperSlide`:
+`swiper-vue2` exports 2 components: `Swiper`, `SwiperSlide` and `SwiperCore`:
 
 ```vue
 <template>
@@ -45,14 +45,69 @@ npm i swiper-vue2
         >
       </swiper-slide>
     </swiper>
+
+    <swiper
+      :slides-per-view="3"
+      :space-between="30"
+      loop
+      @swiper="onSwiper"
+      @slideChange="onSlideChange"
+    >
+      <swiper-slide
+        v-for="n in 5"
+        :key="n"
+        class="test"
+        :class="{test_2: true}"
+      >
+        <div>{{ 34+n }}</div>
+        <img
+          :src="getImageUrl(34+n)"
+          width="600"
+          height="400"
+          class="img-fluid w-100 mx-auto"
+          blank="true"
+        >
+      </swiper-slide>
+    </swiper>
+
+    <h2>pagination - navigation</h2>
+    <swiper
+      :slides-per-view="3"
+      :space-between="30"
+      :loop="false"
+      :pagination="true"
+      :navigation="true"
+      @swiper="onSwiper"
+      @slideChange="onSlideChange"
+    >
+      <swiper-slide
+        v-for="n in 5"
+        :key="n"
+        class="test"
+        :class="{test_2: true}"
+      >
+        <div>{{ 34+n }}</div>
+        <img
+          :src="getImageUrl(34+n)"
+          width="600"
+          height="400"
+          class="img-fluid w-100 mx-auto"
+          blank="true"
+        >
+      </swiper-slide>
+    </swiper>
   </div>
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'swiper-vue2'
+import { Navigation, Pagination } from 'swiper'
+
+import { SwiperCore, Swiper, SwiperSlide } from '../../dist/swiper-vue2.common.js'
 
 // Import Swiper styles
-import 'swiper/swiper.scss'
+import 'swiper/swiper-bundle.css'
+
+SwiperCore.use([Navigation, Pagination])
 
 export default {
   components: {
