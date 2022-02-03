@@ -102,7 +102,7 @@ npm i swiper-vue2
 <script>
 import { Navigation, Pagination } from 'swiper'
 
-import { SwiperCore, Swiper, SwiperSlide } from '../../dist/swiper-vue2.common.js'
+import { SwiperCore, Swiper, SwiperSlide } from 'swiper-vue2'
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.css'
