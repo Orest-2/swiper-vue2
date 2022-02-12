@@ -17,7 +17,7 @@ npm i swiper-vue2
 ```
 
 ### Usage
-`swiper-vue2` exports 2 components: `Swiper`, `SwiperSlide` and `SwiperCore`:
+`swiper-vue2` exports `SwiperCore` and 2 Vue components: `Swiper`, `SwiperSlide`
 
 ```vue
 <template>
