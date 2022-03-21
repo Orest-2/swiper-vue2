@@ -516,4 +516,6 @@ declare const SwiperSlide: ExtendedVue<Vue, unknown, unknown, unknown, {
   };
 }>;
 
-export { Swiper, SwiperSlide };
+declare const SwiperCore: SwiperClass
+
+export { Swiper, SwiperSlide, SwiperCore };
