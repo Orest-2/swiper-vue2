@@ -516,6 +516,6 @@ declare const SwiperSlide: ExtendedVue<Vue, unknown, unknown, unknown, {
   };
 }>;
 
-declare const SwiperCore: SwiperClass
+declare class SwiperCore extends SwiperClass { }
 
 export { Swiper, SwiperSlide, SwiperCore };

@@ -77,9 +77,9 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
+import Vue from 'vue'
 import { Navigation, Pagination } from 'swiper'
-
 import { SwiperCore, Swiper, SwiperSlide } from 'swiper-vue2'
 
 // Import Swiper styles
@@ -87,23 +87,24 @@ import 'swiper/swiper-bundle.css'
 
 SwiperCore.use([Navigation, Pagination])
 
-export default {
+export default Vue.extend({
+  name: 'App',
   components: {
     Swiper,
     SwiperSlide
   },
   methods: {
-    getImageUrl (imageId) {
+    getImageUrl (imageId: any) {
       return `https://picsum.photos/600/400/?image=${imageId}`
     },
-    onSwiper (swiper) {
+    onSwiper (swiper: any) {
       console.log(swiper)
     },
     onSlideChange () {
       console.log('slide change')
     }
   }
-}
+})
 </script>
 
 <style lang="scss" scoped>
