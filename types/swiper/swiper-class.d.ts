@@ -36,7 +36,7 @@ interface SwiperClass<Events> {
   emit<E extends keyof Events>(event: E, ...args: any[]): void;
 }
 
-interface Swiper extends SwiperClass<SwiperEvents> {
+interface SwiperI extends SwiperClass<SwiperEvents> {
   /**
    * Object with passed initialization parameters
    */
@@ -476,7 +476,7 @@ interface Swiper extends SwiperClass<SwiperEvents> {
   zoom: ZoomMethods;
 }
 
-declare class Swiper implements Swiper {
+declare class Swiper implements SwiperI {
   /**
    * Constructs a new Swiper instance.
    *
