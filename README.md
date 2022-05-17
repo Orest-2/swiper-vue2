@@ -8,7 +8,7 @@
 </h2>
 
 <h2>
-  <a href="https://swiperjs.com/vue" target="_blank">Doc</a>
+  <a href="https://swiper6.vercel.app/vue#usage" target="_blank">Doc</a>
 </h2>
 
 ## Installation
