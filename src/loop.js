@@ -28,7 +28,7 @@ function renderLoop (h, swiperRef, slides, swiperParams) {
     if (!child.props) child.props = {}
 
     child.props.swiperRef = swiperRef
-    child.props['data-swiper-slide-index'] = index
+    child.props.virtualIndex = index
 
     return child
   })

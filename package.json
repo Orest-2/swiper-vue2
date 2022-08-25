@@ -1,6 +1,6 @@
 {
   "name": "swiper-vue2",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Swiper component for Vue 2",
   "keywords": [
     "vue2 swiper",
@@ -32,12 +32,12 @@
   },
   "peerDependencies": {
     "swiper": "^6.8.4",
-    "vue": "2.6.x"
+    "vue": "2.7.x"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-service": "~4.5.15",
-    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-plugin-babel": "~4.5.19",
+    "@vue/cli-service": "~4.5.19",
+    "@vue/cli-plugin-eslint": "~4.5.19",
     "@vue/eslint-config-standard": "^5.1.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
@@ -46,8 +46,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.14",
+    "vue-template-compiler": "^2.7.10",
     "swiper": "^6.8.4",
-    "vue": "^2.6.14"
+    "vue": "^2.7.10"
   }
 }
